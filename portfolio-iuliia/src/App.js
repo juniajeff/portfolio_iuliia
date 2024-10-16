@@ -1,5 +1,6 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import React from 'react';
+import { createRoot } from 'react-dom/client';
 import './App.css';
 import About from './components/About'; // Import About component
 import Contact from './components/Contacts'; // Import Contact component
@@ -32,5 +33,13 @@ function App() {
     </div>
   );
 }
+const container = document.getElementById('root');
+const root = createRoot(container);  // Create a root for React 18
+
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 export default App;
