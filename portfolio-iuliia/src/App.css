@@ -1,0 +1,322 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f4b400;  /* Highlight color on hover */
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project h3 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.project p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Styling the skills list */
+#skills ul {
+  list-style: none;
+  display: inline-block;
+}
+
+#skills ul li {
+  background-color: #f4b400;
+  color: white;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Contact Form Styling */
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+form button {
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #f4b400;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+/* Video Container Styling */
+.video-container {
+  max-width: 100%;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  margin-top: 20px; /* Adds space between the text and the video */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* About Me Section Styling */
+#about {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 50px 20px;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #444;
+  font-weight: bold;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+#about .education, #about .languages, #about .skills {
+  text-align: left;
+  margin: 30px 0;
+}
+
+#about .section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left;
+}
+
+#about ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#about ul li {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+#about .skills ul li {
+  font-size: 1rem;
+  color: #333;
+}
+
+#about ul li strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Contact Info Styling */
+.contact-info {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-info h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.contact-info ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-info ul li a:hover {
+  color: #f4b400; /* Hover color */
+}
+
+.contact-info ul li a::before {
+  content: "🔗 ";  /* Optional: Add a link icon or emoji */
+}
+
+.contact-info ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.contact-info ul li:last-child {
+  font-weight: normal;
+  color: #666;
+}
+
+.contact-info ul li:last-child::before {
+  content: ""; /* No icon for email */
+}
+/* Projects Section Styling */
+#projects {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-item {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-item h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.project-item p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* For larger screens, use a grid layout */
+@media (min-width: 768px) {
+  .project-list {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+  }
+}
