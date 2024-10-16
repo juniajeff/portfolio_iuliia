@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio_iuliia/static/css/main.85ef185c.css",
+    "main.js": "/portfolio_iuliia/static/js/main.a613df78.js",
+    "static/js/453.ef6dcfc7.chunk.js": "/portfolio_iuliia/static/js/453.ef6dcfc7.chunk.js",
+    "index.html": "/portfolio_iuliia/index.html",
+    "main.85ef185c.css.map": "/portfolio_iuliia/static/css/main.85ef185c.css.map",
+    "main.a613df78.js.map": "/portfolio_iuliia/static/js/main.a613df78.js.map",
+    "453.ef6dcfc7.chunk.js.map": "/portfolio_iuliia/static/js/453.ef6dcfc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85ef185c.css",
+    "static/js/main.a613df78.js"
+  ]
+}
