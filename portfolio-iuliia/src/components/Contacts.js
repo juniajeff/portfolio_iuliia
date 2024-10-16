@@ -23,7 +23,7 @@ function Contact() {
       {submitted ? (
         <p>Thank you! Your message has been sent.</p>
       ) : (
-        <form action="https://formspree.io/f/myybwyyv" method="POST" onSubmit={handleSubmit}>
+        <form action="https://formspree.io/f/manyyley" method="POST" onSubmit={handleSubmit}>
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" name="name" required />
 
