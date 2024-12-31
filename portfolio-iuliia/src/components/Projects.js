@@ -9,8 +9,19 @@ function Projects() {
           <h3>게임 개발 프로젝트 (2022)</h3>
           <p>
             게임 개발 수업의 일환으로 간단한 게임을 개발하였으며, 프로그래밍 기술과 창의적인 문제 해결 능력을 사용하여 
-            게임 메커니즘과 기능을 구축하였습니다.
+            게임 메커니즘과 기능을 구축하였습니다. 아래 동영상은 이 게임 프로젝트의 데모입니다.
           </p>
+          <div className="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/yl0CCHZqu50"
+              title="Asteroids avoiding game with A* algorithm for enemies"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
 
         <div className="project-item">
@@ -58,15 +69,14 @@ function Projects() {
           <h3>AI 챗봇 프로젝트</h3>
           <p>
             이 프로젝트는 AI 챗봇이 어떻게 작동하는지 시연하며, 기계 학습과 자연어 처리 기술을 사용하여 
-            실시간으로 사용자와 상호작용하는 방식에 대해 보여줍니다. 아래 동영상을 통해 자세한 설명과 데모를 확인할 수 있습니다.
+            실시간으로 사용자와 상호작용하는 방식에 대해 보여줍니다. 아래 동영상을 통해 AI mBART-50 피트니스 앱의 데모를 확인할 수 있습니다.
           </p>
-          {/* 여기서 동영상을 삽입하세요 */}
           <div className="video-container">
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/BuWwlUhRL_k"
-              title="AI 챗봇 데모"
+              src="https://www.youtube.com/embed/3E6VH0udhOk"
+              title="AI mBART-50 fine-tuned real-time translator in ResQ application"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -79,4 +89,3 @@ function Projects() {
 }
 
 export default Projects;
-
